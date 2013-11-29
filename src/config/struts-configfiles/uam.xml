@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+    "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+    "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <package name="" extends="mes-default" namespace="/">
+        <action name="userList" class="com.xhsoft.framework.admin.action.LoginAction">
+            <result>admin/uam/user_list.jsp</result>
+        </action>
+    </package>
+
+</struts>
